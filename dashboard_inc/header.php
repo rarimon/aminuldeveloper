@@ -74,6 +74,19 @@
 
             </ul>
 
+            <a href="#" class="sl-menu-link">
+                <div class="sl-menu-item">
+                    <i class="menu-item-icon ion-ios-pie-outline tx-20"></i>
+                    <span class="menu-item-label">Banner</span>
+                    <i class="menu-item-arrow fa fa-angle-down"></i>
+                </div><!-- menu-item -->
+            </a><!-- sl-menu-link -->
+            <ul class="sl-menu-sub nav flex-column">
+                <li class="nav-item"><a href="/portfolio/admin/user/user_list.php" class="nav-link">All Banner</a></li>
+                <li class="nav-item"><a href="/portfolio/admin/banner/insert_banner.php" class="nav-link">Add Banner</a></li>
+
+            </ul>
+
 
 
 
@@ -106,7 +119,7 @@
                             <li><a href=""><i class="icon ion-ios-download-outline"></i> Downloads</a></li>
                             <li><a href=""><i class="icon ion-ios-star-outline"></i> Favorites</a></li>
                             <li><a href=""><i class="icon ion-ios-folder-outline"></i> Collections</a></li>
-                            <li><a href=""><i class="icon ion-power"></i> Sign Out</a></li>
+                            <li><a href="/portfolio/logout.php"><i class="icon ion-power"></i> Sign Out</a></li>
                         </ul>
                     </div><!-- dropdown-menu -->
                 </div><!-- dropdown -->
